@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const url = process.env.redis
+  const url = import.meta.env.VITE_redis
   console.log(url)
 
   return (
