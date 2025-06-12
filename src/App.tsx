@@ -5,7 +5,8 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const url = process.env.REDIS_URL
+  const url = process.env.redis
+  console.log(url)
 
   return (
     <>
