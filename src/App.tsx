@@ -20,10 +20,10 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          count is {count}{url}
         </button>
         <p>
-          {url}
+          
         </p>
       </div>
       <p className="read-the-docs">
